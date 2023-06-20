@@ -28,7 +28,7 @@ const Register = () => {
   const [type, setType] = useState("");
 
   const register = () => {
-    if (email === "" || password === "" || phone === "") {
+    if (email === "" || password === "" || phone === ""|| nameSurname=== ""|| securityId === ""|| address === ""|| type === "") {
       Alert.alert("Invalid Details", "Please fill all the details", [
         {
           text: "Cancel",
